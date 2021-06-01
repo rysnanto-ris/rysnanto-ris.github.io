@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>
+        Install Hugo Di Termux ::
+        Rysnanto — Blogger Receh - website personal
+      </title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta
+  name="description"
+  content="Membuat Blog Pakai Hugo Di Termux
+Eumm Pernah kah kalian ngeblog pakai terminal? Kalau saya ini merupakan pertama kali sejak saya ngeblog , dulu kalau saya ngeblog menggunakan cms dari google yaitu blogger kadang juga pakai wordpress .
+Blogger lah yang menemani ngeblog saya sampai website https://golek-artikel.com mendapatkan iklan dari google adsense , dan Sekarang website nya gak keurus lagi.
+Saya coba cari cari di google tentang membuat website dengan SSG , dan akhir nya saya kepincut pengen coba , Dan saya pertama kali menggunakan hugo ."
+/>
+<meta
+  name="keywords"
+  content="blog , technology , arysndev , rysnanto"
+/>
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://rysnanto.eu.org/post/install-hugo-di-termux/" />
+
+
+
+
+
+<link rel="stylesheet" href="https://rysnanto.eu.org/assets/style.css" />
+
+<link rel="stylesheet" href="https://rysnanto.eu.org/style.css" />
+
+
+<link
+  rel="apple-touch-icon-precomposed"
+  sizes="144x144"
+  href="https://rysnanto.eu.org/img/apple-touch-icon-144-precomposed.png"
+/>
+<link rel="shortcut icon" href="https://rysnanto.eu.org/img/favicon.png" />
+
+
+<link href="https://rysnanto.eu.org/assets/fonts/Inter-Italic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://rysnanto.eu.org/assets/fonts/Inter-Regular.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://rysnanto.eu.org/assets/fonts/Inter-Medium.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://rysnanto.eu.org/assets/fonts/Inter-MediumItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://rysnanto.eu.org/assets/fonts/Inter-Bold.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://rysnanto.eu.org/assets/fonts/Inter-BoldItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Install Hugo Di Termux"/>
+<meta name="twitter:description" content="Berikut Cara Menginstall hugo dengan termux dengan mudah"/>
+
+
+
+<meta property="og:title" content="Install Hugo Di Termux" />
+<meta property="og:description" content="Berikut Cara Menginstall hugo dengan termux dengan mudah" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://rysnanto.eu.org/post/install-hugo-di-termux/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2021-03-21T02:44:25&#43;00:00" />
+<meta property="article:modified_time" content="2021-03-21T02:44:25&#43;00:00" /><meta property="og:site_name" content="Rysnanto" />
+
+
+
+
+
+
+
+  </head>
+  <body class="">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a
+  href="/"
+  class="logo"
+  style="text-decoration: none;"
+>
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
+</svg>
+</span>
+    <span class="logo__text"
+      >arysdev</span
+    >
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About me</a></li>
+        
+      
+        
+          <li><a href="/pdf">Kumpulan Pdf</a></li>
+        
+      
+      
+      
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About me</a></li>
+      
+    
+      
+        <li><a href="/pdf">Kumpulan Pdf</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg
+  class="theme-toggler"
+  width="24"
+  height="24"
+  viewBox="0 0 48 48"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"
+  />
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  
+  
+
+  <div class="post">
+    <h1 class="post-title">Install Hugo Di Termux</h1>
+    <div class="post-meta">
+      
+        <span class="post-date">
+          2021-03-21
+        </span>
+
+        
+          
+        
+      
+
+      
+        <span class="post-author"
+          >— Penulis Rysnanto</span
+        >
+
+
+      
+    </div>
+
+    
+
+    
+      <figure class="post-cover">
+        
+          <img src="https://raw.githubusercontent.com/arysn/images/main/20210321_104034.jpg" alt="Install Hugo Di Termux" />
+        
+
+        
+      </figure>
+    
+
+    <div class="post-content">
+      
+      <p><strong>Membuat Blog Pakai Hugo Di Termux</strong></p>
+<p>Eumm Pernah kah kalian ngeblog pakai terminal? Kalau saya ini merupakan pertama kali sejak saya ngeblog , dulu kalau saya ngeblog menggunakan cms dari google yaitu blogger kadang juga pakai wordpress .</p>
+<p>Blogger lah yang menemani ngeblog saya sampai website <a href="https://golek-artikel.com">https://golek-artikel.com</a> mendapatkan iklan dari google adsense , dan Sekarang website nya gak keurus lagi.</p>
+<p>Saya coba cari cari di google tentang membuat website dengan SSG , dan akhir nya saya kepincut pengen coba , Dan saya pertama kali menggunakan hugo . di dokumentasi gohugo.io , untuk penginstallan nya sendiri memakai dekstop dan saya cuma punya hp , Nah langsung muncul di pikiran saya kenapa gak pakai termux aja buat terminal nya , Setalah saya coba dan hasil nya pun berhasil&hellip;</p>
+<p>Disini saya Mau mencoba sharing tentang install hugo di termux jika kamu juga pengen membuat blog pakai termux</p>
+<p>Bahan Yang kamu Butuh kan :</p>
+<ul>
+<li>Termux</li>
+<li>Install git</li>
+<li>install hugo</li>
+</ul>
+<p>Pertama kali kamu buka Terminal Termux nya telebih dahulu , Jika sudah masuk ke termux kamu ketikkan perintah ini</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">pkg install git
+</code></pre></div><p>Fungsi dari perintah diatas itu untuk menginstall git ke termux ,</p>
+<p>Setalah Itu kalian juga ketikkan perintah di bawah ini untuk menginstall hugo ke termux</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">pkg install hugo
+</code></pre></div><p>Nah Kamu sudah Berhasil Menginstall hugo , lalu bagaimana caranya membuat site/website baru di hugo? Cara nya kamu ketik perintah berikut ini untuk membuat site baru</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">hugo new site namawebsitemu
+</code></pre></div><p>Jika tampilan Seperti di bawah ini kamu sudah berhasil membuat site baru</p>
+<p><img src="https://raw.githubusercontent.com/arysn/images/main/Screenshot_2021-03-21-10-02-23-975_com.termux.jpg" alt="install hugo termux"></p>
+<p>Sekarang Kita buka site yang sudah kita buat diatas tadi , disini saya membuat site bernama <strong>cahndeso</strong> . buka site nya ketikkan perintah ini</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">cd namasite
+</code></pre></div><p><em><strong>namasite</strong></em> sesuaikan dengan site kamu ya!</p>
+<p>Sudah terbuka kan? coba kamu ketik <strong>ls</strong> dan kamu akan mendapati sebuah folder dan file seperti archetypes   content dan lain lain <img src="https://raw.githubusercontent.com/arysn/images/main/IMG_20210321_100843.jpg" alt="install hugo termux"></p>
+<p>Untuk Fungsi dan apa sebenarnya folder dan file tersebut kamu bisa baca di website nya petanikode , karena aku gak bisa nyebutin satu satu fungsi nya
+<a href="https://www.petanikode.com/membuat-blog-dengan-hugo/">Petani Kode</a></p>
+<p>Oke Saya Lanjut&hellip;</p>
+<p>Sekrang Kita coba menambahkan Tema untuk blog kita , untuk mencari tema hugo bisa kamu kunjungi website ini <a href="themes.gohugo.io">themes</a> , Setelah itu pilih tema yang menurut kamu keren / bagus sesuai seleramu , di kasus ini saya menggunakan themes dream , salin alamat github themes kamu lalu clone ke dalam folder themes. Seperti ini</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"> git clone https://github.com/g1eny0ung/hugo-theme-dream.git themes/dream
+</code></pre></div><p>SeSuaikan Dengan alamat theme kamu , biasanya ada kok alamat github yang disediakan . perintah tersebut akan mengclone tema dream ke dalam folder <strong>themes/</strong>  dan ku beri nama <strong>dream</strong> jadi perintah nya <strong>themes/dream</strong> seperti perintah diatas tadi.</p>
+<p>Secara otomatis file² tema dream akan ada di dalam folder themes . sekarang caranya menggunakan themes tersebut gimana?</p>
+<p>Kalian Buka file config.toml dengan perintah berikut ini</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">nano config.toml
+</code></pre></div><p>setelah terbuka , maka muncul code seperti ini kan?</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">baseURL = &#34;/&#34;
+languageCode = &#34;id&#34;
+title = &#34;Rysnanto&#34;
+theme = &#34;dream&#34;
+</code></pre></div><p>Nah bila kita ingin menggunakan tema tadi yang kita clone , kamu tinggal menambahkan <strong>theme = &ldquo;namathem&rdquo;</strong> , untuk title juga kamu isi , bahasa website mu ganti ke id artinya bahas indonesia , untuk baseurl kalian sesuaikan dengan domain mu karena kamu belum punya jadi nya kosingin aja dulu</p>
+<p>untuk cara ngesave nya kalian tekan <strong>CTRL + X</strong> lalu ketik <strong>y</strong> dan tekan enter.</p>
+<p>Sekrang kamu berhasil Menambahkan tema , sekarang kita coba membuat sebuah artikel , ketik command berikut ini</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">hugo new post/belajar-membuat-website.md
+</code></pre></div><p>Nah otomatis akan membuat sebuah artikel baru yang disimpan di folder <strong>content</strong> , untuk mengedit artikel nya ketik saja</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">cd content/post
+</code></pre></div><p>Lalu pilih artikel mana yang mau di edit dengan ketik</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">nano nama-artikel-mu.md
+</code></pre></div><p>dan kamu bisa mengedite artikel mu disana , atau kamu juga bisa menulis markdown nya di aplikasi lalu salin yang kamu tulis lalu paste ke artikel yang kamu buka tadi lewat nano.</p>
+<p>untuk save sama <strong>CTRL + X</strong> ketik <strong>y</strong> lalu enter</p>
+<p>Sekarang kita coba lihat web baru kita , kita kembali ke  root , dengan cara <strong>cd ..</strong> sampai kembali ke site mu .</p>
+<p>Sekarang kita mau lihat website kita berjalan , dengan cara kerik perintah ini</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">hugo server
+</code></pre></div><p>Setalah kamu ketik perintah tersebut maka kamu akan di beri alamt untuk melihat website baru kamu . <img src="https://raw.githubusercontent.com/arysn/images/main/IMG_20210321_103652.jpg" alt="gambar install hugo"></p>
+<p>Yeyy udah Berhasil !<img src="https://raw.githubusercontent.com/arysn/images/main/IMG_20210321_103704.jpg" alt="berhasil install"></p>
+<p>Selanjutnya apa?</p>
+<p>Selanjutnya kita akan mengonlinekan website kita ke githun pages , eits tapi next artikel ya aku sudah capek ngetik panjang lebar . kalau kurang jelas aku akan membuatkan vidio untuk kalian . bye</p>
+
+    </div>
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h"
+              >Postingan Lain</span
+            >
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="https://rysnanto.eu.org/post/cara-melihat-teknologi-pada-website/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">Cara Mengetahui Teknologi Pada Website</span>
+                </a>
+              </span>
+            
+            
+              <span class="button next">
+                <a href="https://rysnanto.eu.org/post/belajar-javascript-bagian-pertama/">
+                  <span class="button__text">Belajar Javascript Bagian Pertama</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+
+
+    
+      
+        
+
+      
+    
+  </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">Rysnanto🌙 2021</div>
+      
+  </div>
+</footer>
+
+<script src="https://rysnanto.eu.org/assets/main.js"></script>
+<script src="https://rysnanto.eu.org/assets/prism.js"></script>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>

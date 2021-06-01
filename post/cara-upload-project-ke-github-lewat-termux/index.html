@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>
+        Cara Upload Project Ke Github Lewat Termux ::
+        Rysnanto — Blogger Receh - website personal
+      </title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta
+  name="description"
+  content="Masih bingung cara upload/push project ke repository github , mari simak tutorial untuk cara upload termux . untuk yang harus kalian siapkan akun github , silahksn daftar / login
+Setalah login dan masuk ke dasboard kalian buat sebuah repository untuk menyimpan file mu, gak tau cara untuk membuat repo baru? coba cek salah satu artikel saya mengenai custome domain github pages sudah ada penjelasan mengenai membuat repo baru .
+Lanjut , Sekarang download aplikasi termux dulu tentunya , di play store ada tinggal pencet unduh ."
+/>
+<meta
+  name="keywords"
+  content="blog , technology , arysndev , rysnanto"
+/>
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://rysnanto.eu.org/post/cara-upload-project-ke-github-lewat-termux/" />
+
+
+
+
+
+<link rel="stylesheet" href="https://rysnanto.eu.org/assets/style.css" />
+
+<link rel="stylesheet" href="https://rysnanto.eu.org/style.css" />
+
+
+<link
+  rel="apple-touch-icon-precomposed"
+  sizes="144x144"
+  href="https://rysnanto.eu.org/img/apple-touch-icon-144-precomposed.png"
+/>
+<link rel="shortcut icon" href="https://rysnanto.eu.org/img/favicon.png" />
+
+
+<link href="https://rysnanto.eu.org/assets/fonts/Inter-Italic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://rysnanto.eu.org/assets/fonts/Inter-Regular.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://rysnanto.eu.org/assets/fonts/Inter-Medium.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://rysnanto.eu.org/assets/fonts/Inter-MediumItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://rysnanto.eu.org/assets/fonts/Inter-Bold.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://rysnanto.eu.org/assets/fonts/Inter-BoldItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Cara Upload Project Ke Github Lewat Termux"/>
+<meta name="twitter:description" content="berikut ini cara upload project ke github lewat termux android"/>
+
+
+
+<meta property="og:title" content="Cara Upload Project Ke Github Lewat Termux" />
+<meta property="og:description" content="berikut ini cara upload project ke github lewat termux android" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://rysnanto.eu.org/post/cara-upload-project-ke-github-lewat-termux/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2021-04-06T12:50:12&#43;00:00" />
+<meta property="article:modified_time" content="2021-04-06T12:50:12&#43;00:00" /><meta property="og:site_name" content="Rysnanto" />
+
+
+
+
+
+
+
+  </head>
+  <body class="">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a
+  href="/"
+  class="logo"
+  style="text-decoration: none;"
+>
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
+</svg>
+</span>
+    <span class="logo__text"
+      >arysdev</span
+    >
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About me</a></li>
+        
+      
+        
+          <li><a href="/pdf">Kumpulan Pdf</a></li>
+        
+      
+      
+      
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About me</a></li>
+      
+    
+      
+        <li><a href="/pdf">Kumpulan Pdf</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg
+  class="theme-toggler"
+  width="24"
+  height="24"
+  viewBox="0 0 48 48"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"
+  />
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  
+  
+
+  <div class="post">
+    <h1 class="post-title">Cara Upload Project Ke Github Lewat Termux</h1>
+    <div class="post-meta">
+      
+        <span class="post-date">
+          2021-04-06
+        </span>
+
+        
+          
+        
+      
+
+      
+        <span class="post-author"
+          >— Penulis Rysnanto</span
+        >
+
+
+      
+    </div>
+
+    
+
+    
+      <figure class="post-cover">
+        
+          <img src="https://raw.githubusercontent.com/arysn/images/main/20210406_200537.jpg" alt="Cara Upload Project Ke Github Lewat Termux" />
+        
+
+        
+      </figure>
+    
+
+    <div class="post-content">
+      
+      <p>Masih bingung cara upload/push project ke repository github , mari simak tutorial untuk cara upload termux . untuk yang harus kalian siapkan akun github , silahksn daftar / login</p>
+<p>Setalah login dan masuk ke dasboard kalian  buat sebuah repository untuk menyimpan file mu, gak tau cara untuk membuat repo baru? coba cek salah satu artikel saya mengenai custome domain github pages sudah ada penjelasan mengenai membuat repo baru .</p>
+<p>Lanjut , Sekarang download aplikasi termux dulu tentunya , di play store ada tinggal pencet unduh . Sekarang Buka Termux kalian</p>
+<p>Ketikan Perintah Berikut di termux</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">pkg install git
+</code></pre></div><p>Fungsi dari perintah tersebut untuk menginstall git di termux kita</p>
+<p>Jika proses telah selesai , pastikan kamu sekarang ada di folder/file yang ingin kamu upload , misalnya saya mau upload folder project yang berada di penyimpanan hp saya , cara nya ketikan seperti ini</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">termux-setup-storage
+</code></pre></div><p>Fungsi dari perintah tersebut agar kita bisa membuka penyimpanan hp di termux , yuk ikuti langkah  selanjutnya</p>
+<p>Ketikan</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">cd storage/shared
+</code></pre></div><p>lalu ketik <strong>ls</strong> agar muncul semua file/folder yang ada di penyimpanan kita ya!</p>
+<p><img src="https://raw.githubusercontent.com/arysn/images/main/IMG_20210406_192513.jpg" alt="gambar rysnanto">
+Bisa kamu lihat pada gambar diatas , aku pengen upload file yang ada di folder project , jadi aku buka folder project dengan ketik , sesuaikan aja ya</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">cd namafolder
+</code></pre></div><h2 id="proses-upload">Proses Upload</h2>
+<p>lalu kita sekarang akan melakukan proses upload ke github ya , ini bagian paling penting , yang pertama yaitu ketikan</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">git init
+</code></pre></div><p>fungsi nya untuk membuat repository pada file lokal yang nantinya ada folder .git</p>
+<p>yang <strong>kedua</strong></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">git add .
+</code></pre></div><p>untuk menambahkan file/folder , bisa kamu lihat ada tanda (.) titik kan? , nah itu untuk membuat semua ikut di upload . kamu juga bisa mengupload salah satu saja / lebih spesefik contoh nya</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">git add index.html
+</code></pre></div><p>Atau</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">git add namafolder/profil.html
+</code></pre></div><p>Yang <strong>Ketiga</strong></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">git commit -m &#34;baru&#34;
+</code></pre></div><p>Fungsinya untuk membuat pesan upload  yang nanti muncul di repository mu , untuk tulisan &ldquo;baru&rdquo; bisa kamu ganti sesuka hati</p>
+<p>sesudah itu , langkah <strong>ke empat</strong></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">git remote add origin https://github.com/namauser/namarepo.git
+</code></pre></div><p>Itu bisa kalian sesuaikan dengan nama repo kamu ya, itu hanya contoh saja</p>
+<p>Langkah ke <strong>lima</strong> langkah terakhir yaitu kita upload ke github kita</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">git push -u origin master
+</code></pre></div><p>-u berfungsi untuk pertamakali upload file di repo , untuk sudah pernah tidak usah memakai hanya gini saja cukup</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">git push origin master
+</code></pre></div><p>lalu kamu disuruh untuk mengisi username dan passowrd github kamu</p>
+<p>dan berhasil selamat kamu sudah berhasil mengupload project mu ke repository github</p>
+<blockquote>
+<p>Biasanya kalo ada yang eror saat upload seperti gambar di bawah ini , solusi saya yaitu dengan cara menambahkan <strong>&ndash;force</strong> seperti ini kurang lebih
+<img src="https://raw.githubusercontent.com/arysn/images/main/IMG_20210406_194743.jpg" alt="IMG_20210406_194743"></p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">git push origin master --force
+</code></pre></div>
+    </div>
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h"
+              >Postingan Lain</span
+            >
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="https://rysnanto.eu.org/post/disable-iklan-disqus-di-blog/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">Menghilangkan Iklan Disqus di Blog</span>
+                </a>
+              </span>
+            
+            
+              <span class="button next">
+                <a href="https://rysnanto.eu.org/post/cara-custome-domain-github-pages/">
+                  <span class="button__text">Cara Custome domain Github Pages</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+
+
+    
+      
+        
+
+      
+    
+  </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">Rysnanto🌙 2021</div>
+      
+  </div>
+</footer>
+
+<script src="https://rysnanto.eu.org/assets/main.js"></script>
+<script src="https://rysnanto.eu.org/assets/prism.js"></script>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>
